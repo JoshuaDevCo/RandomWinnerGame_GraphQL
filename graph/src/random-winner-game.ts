@@ -6,7 +6,7 @@ import {
   OwnershipTransferred,
 } from "../generated/RandomWinnerGame/RandomWinnerGame";
 import { Game } from "../generated/schema";
-
+// random winner game
 export function handleGameEnded(event: GameEnded): void {
   // Entities can be loaded from the store using a string ID; this ID
   // needs to be unique across all entities of the same type
